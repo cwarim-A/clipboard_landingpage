@@ -1,0 +1,402 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Bai Jamjuree;
+}
+
+
+.hero_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("./images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.hero_section > img{
+    margin-top: 9rem;
+}
+
+.hero_section > h1{
+    font-size: 45px;
+    color: hsl(210, 10%, 33%);
+}
+.hero_section > p{
+    width: 55%;
+    font-size: 18px;
+    margin-top: -15px;
+    color: hsl(201, 11%, 66%);
+}
+
+.button_class{
+    display:flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+ .button_class > .green_button{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: hsl(171, 66%, 44%);
+    padding: 15px ;
+    border: none;
+    border-radius: 30px;
+    width: 19%;
+    margin-right: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: inherit;
+    cursor: pointer;
+}
+.button_class > .blue_button{
+    color: white;
+    background-color: hsl(233, 100%, 69%);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    width: 19%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: inherit;
+    cursor: pointer;
+} 
+
+.desc_class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+
+}
+
+
+
+.desc_class > h2{
+    margin-top: 150px;
+    font-size: 35px;
+    color: hsl(210, 10%, 33%);
+}
+
+.desc_class > p{
+    width: 55%;
+    font-size: 19px; 
+    color: hsl(201, 11%, 66%);
+    margin-top: -10px;
+}
+
+.details_class{
+    display: flex;
+    margin-top: 40px;
+}
+
+.details_class > .img_class{
+    margin-right: 50px;
+    margin-left: -35px;
+}
+
+.details_class > .aside_class{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.aside_class > .aside_subclass{
+    width: 80%;
+    margin-top: 55px;
+}
+
+.aside_subclass > p{
+    width: 90%;
+    font-size: 18px;
+    color: hsl(201, 11%, 66%);
+}
+
+.aside_subclass > h3{
+    font-size: 20px;
+   color: hsl(210, 10%, 33%);
+}
+
+.image > img{
+    margin-top: 50px;
+    margin-left: 15%;
+}
+
+.desc_class1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+}
+
+.desc_class1 > h2{
+    font-size: 35px;
+    color: hsl(210, 10%, 33%);
+}
+
+.desc_class1 > p {
+    width: 55%;
+    font-size: 19px; 
+    color: hsl(201, 11%, 66%);
+    margin-top: -10px;
+}
+
+.card_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.card_section > .card{
+    text-align: center;
+    width: 25%;
+}
+.card > h3{
+  color: hsl(210, 10%, 33%);  
+}
+
+.card > p {
+    color: hsl(201, 11%, 66%) ;
+}
+
+.logo_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.footer_class{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey ;
+    margin-top: 120px;
+}
+
+.footer_class > .footer_section1{
+    display: flex;
+    margin-left: 50px;
+}
+
+.footer_section1 > .link_section{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    margin-left: 75px;
+}
+
+
+
+.footer_section1 > .footer_image {
+    margin:35px 35px ;
+}
+
+.link_section > a{
+    text-decoration: none;
+    color: black ;
+    margin-top: 15px;
+}
+
+.link_section > a:hover{
+    color:hsl(171, 66%, 44%) ;
+}
+.footer_class > .social_media{
+    margin-right: 75px ;
+}
+.footer_class > .social_media > img{
+    cursor: pointer;
+}
+.social_media > img:hover{
+   color:hsl(171, 66%, 44%); 
+}
+
+
+.footer_class > .social_media > .twitter_logo{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+
+@media only screen and (max-width: 425px) and (min-width: 375px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .hero_section{
+        
+        background-image: url("./images/bg-header-mobile.png");
+        background-repeat: no-repeat;
+        padding: 10px;
+       
+    }
+    .hero_section > img{
+        margin-top: 5rem;
+    }
+    .hero_section > h1{
+        font-size: 35px;
+        color: hsl(210, 10%, 33%);
+        margin-top: 45px;
+    }
+    .hero_section > p{
+        font-size: 17px;
+        margin-top: 3px;
+        color: hsl(201, 11%, 66%);
+        width: 89%;
+        line-height: 1.5;
+    }
+    .button_class{
+        display:flex ;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .button_class > .green_button{
+        margin-left: 0;
+        width: 89%;
+       
+    }
+    .button_class > .blue_button{
+       width: 89%;
+       margin-top: 25px;
+    } 
+    .desc_class > p{
+        padding: 15px;
+        width: 89%;
+        font-size: 17px; 
+        color: hsl(201, 11%, 66%);
+        margin-top: -10px;
+        line-height: 1.5
+    }
+    .desc_class > h2{
+       padding: 5px;
+    }
+    .details_class{
+        display: flex;
+        flex-direction: column;
+        margin-left: 75px;
+        
+    }
+    .details_class > .aside_class{
+        margin-top: 30px;
+        margin-left: -50px;
+        text-align: center;
+    }
+    .aside_subclass > p{
+        width: 100%;
+        font-size: 17px;
+        color: hsl(201, 11%, 66%);
+        line-height: 1.5;
+    }
+    .aside_subclass > h3{
+        font-size: 25px;
+       color: hsl(210, 10%, 33%);
+    }
+    .image > img{
+        margin-top: 50px;
+       margin-left: 4%;
+        width: 90%;
+    }
+    .desc_class1 > p {
+        width: 89%;
+        font-size: 17px; 
+        color: hsl(201, 11%, 66%);
+        margin-top: -10px;
+        line-height: 1.5;
+    }
+    .desc_class1 > h2{
+        font-size: 35px;
+        color: hsl(210, 10%, 33%);
+        margin-top: 85px;
+    }
+    .card_section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card_section > .card{
+        margin-top: 35px;
+        text-align: center;
+        width: 86%;
+    }
+    .card > h3{
+        font-size: 25px;
+      }
+      .logo_section{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo_section > img{
+        margin-top: 65px;
+    }
+    .footer_class{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .footer_class > .footer_section1{
+        display: flex;
+       flex-direction: column;
+       margin: 0;
+       margin-right: 75px;
+    }
+    .footer_section1 > .footer_image {
+       text-align: center;
+       align-items: center;
+       margin-top: 65px;
+       margin-left: 150px;
+    }
+    .footer_section1 > .link_section{
+      margin-left: 115px;
+    }
+    .footer_section1 > .link{
+        margin-top: -25px;
+        line-height: 1.8;
+    }
+    .footer_section1 > .social_media{
+        margin-right: 45px;
+    }
+    .link_section > a{
+        font-size: 18px;
+    }
+    .footer_class > .social_media{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin-left: 75px;
+        margin-top: 35px;
+    }
+    .social_media > .facebook{
+        margin-right: 25px;
+    }
+    .social_media > .instagram{
+        margin-left: 25px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
