@@ -228,7 +228,7 @@ body{
     cursor: pointer;
 }
 .social_media > img:hover{
-   color:hsl(171, 66%, 44%); 
+   filter: hue-rotate(120deg); 
 }
 
 
